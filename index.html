@@ -12,21 +12,19 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <div class="container">
-    <!-- Header -->
-    <div class="col s12 m6 l4">
-      <h2>Matt Loidolt, PAG</h2>
-      <p>(Pretty Awesome Guy)</p><i class="material-icons">thumb_up</i>
-    </div>
     <!-- Main content -->
     <div class="row">
-      <div class="col s12 m3 l2">
-        <div class="collection">
-          <a id='bioBtn' onclick="Materialize.toast('I haven't made this page yet!', 4000)" href="#!" class="collection-item waves-effect waves-light active">Bio <i class="material-icons">contacts</i></a>
-          <a id='projectsBtn' onclick="Materialize.toast('Still in progress!', 4000)" href="#!" class="collection-item waves-effect waves-light">Projects <i class="material-icons">code</i></a>
-          <a id='resumeBtn' onclick="Materialize.toast('Not quite done with this one!', 4000)" href="#!" class="collection-item waves-effect waves-light">Resume <i class="material-icons">description</i></a>
+      <nav>
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">Matt Loidolt</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a id='bioBtn' onclick="Materialize.toast('I haven't made this page yet!', 4000)" href="#!" class="waves-effect waves-light active"> Bio <i class="material-icons">contacts</i></a></li>
+            <li><a id='projectsBtn' onclick="Materialize.toast('Still in progress!', 4000)" href="#!" class="waves-effect waves-light"> Projects <i class="material-icons">code</i></a></li>
+            <li><a id='resumeBtn' onclick="Materialize.toast('Not quite done with this one!', 4000)" href="#!" class="waves-effect waves-light"> Resume <i class="material-icons">description</i></a></li>
+          </nav>
         </div>
-      </div>
-      <div id='maincontent' class="col s12 m9 l10">
+      </nav>
+      <div id='maincontent' class="col s12">
         
       </div>
     </div>
